@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            color: #fff;
+        }
+
+        header {
+            background-color: #111;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+
+        .signin-button {
+            background-color: #e50914;
+            border: none;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .hero-section {
+            text-align: center;
+            margin: 5rem 0;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-button {
+            background-color: #e50914;
+            border: none;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+
+        .featured {
+            padding: 2rem;
+            background-color: #202020;
+        }
+
+        .featured h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .card {
+            margin: 1rem;
+            max-width: 200px;
+            background-color: #333333;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .card h3 {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            padding: 0.5rem;
+        }
+
+        footer {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="C:\Bharat intern\Netflix\n2.png" alt="Netflix Logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Latest</a></li>
+            </ul>
+            <button class="signin-button">Sign In</button>
+        </nav>
+        <div class="hero-section">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <button class="cta-button">Watch Free for 30 Days</button>
+        </div>
+    </header>
+    <section class="featured">
+        <h2>Featured Titles</h2>
+        <div class="card">
+            <img src="C:\Bharat intern\Netflix\m1.jpeg" alt="Movie 1">
+            <h3>Harry Potter</h3>
+        </div>
+        <div class="card">
+            <img src="C:\Bharat intern\Netflix\furious.jpg" alt="movie 1">
+            <h3> Furious</h3>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+</html>
